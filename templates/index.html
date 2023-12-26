@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="pink">
+    <center>
+    <h3>Loan Prediction Model</h3>
+    <form method="post" action="prediction">
+        <label>Gender</label>
+        <input type="text" name="Gender">
+        <br>
+        <br>
+        <label>Married</label>
+        <input type="text" name="Married">
+        <br>
+        <br>
+        <label>Dependents</label>
+        <input type="text" name="Dependents">
+        <br>
+        <br>
+        <label>Education</label>
+        <input type="text" name="Education">
+        <br>
+        <br>
+        <label>Self_Employed</label>
+        <input type="text" name="Self_Employed">
+        <br>
+        <br>
+        <label>ApplicantIncome</label>
+        <input type="text" name="ApplicantIncome">
+        <br>
+        <br>
+        <label>CoapplicantIncome</label>
+        <input type="text" name="CoapplicantIncome">
+        <br>
+        <br>
+        <label>LoanAmount</label>
+        <input type="text" name="LoanAmount">
+        <br>
+        <br>
+        <label>Loan_Amount_Term</label>
+        <input type="text" name="Loan_Amount_Term">
+        <br>
+        <br>
+        <label>Credit_History</label>
+        <input type="text" name="Credit_History">
+        <br>
+        <br>
+        <label>Property_Area</label>
+        <input type="text" name="Property_Area">
+        <br>
+        <br>
+        <p style="color:blue">
+        <input type="submit" value="Predict Loan">
+        <br>
+        <br>
+        {{Result}}
+        </p>
+
+    </form>
+    </center>
+    
+</body>
+</html>
