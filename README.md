@@ -1,3 +1,3 @@
 # LoanPrediction
 Loan Prediction project
-# Author - Sunil Thite
+Author - Sunil Thite
