@@ -1,4 +1,4 @@
 # LoanPrediction
-Loan Prediction project
-<br>
 Author - Sunil Thite
+<br>
+Project Name: Loan Prediction project
